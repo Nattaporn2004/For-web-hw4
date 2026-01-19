@@ -1,0 +1,53 @@
+/* กำหนดพื้นหลัง */
+body {
+background-color: rgb(140, 34, 34);
+font-family: serif;
+}
+
+/* แต่งหัวข้อหลัก */
+.center1 {
+text-align: center;
+color: rgb(255, 255, 255);
+}
+* {
+font-size: 150%;
+}
+
+/* แต่งหัวข้อรอง */
+.center2 {
+font-family: serif;
+color: rgb(0, 0, 0);
+text-align: center;
+margin: 100px 50px 40px;
+}
+
+/* margin and padding */
+div {
+color: rgb(0, 0, 0);
+border: 5px solid rgb(255, 255, 255);
+font-size: 50%;
+
+padding-top: 30px;
+padding-bottom: 30px;
+padding-right: 20px;
+padding-left: 20px;
+
+margin-top: 30px;
+margin-bottom: 30px;
+margin-right: 20px;
+margin-left: 20px;
+
+background-color: rgb(255, 255, 255);
+border-style: double;
+border-width: 10px;
+border-color:rgb(0, 0, 0);
+font-size: 100%;
+}
+
+.box {
+    width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 30px solid rgb(128, 0, 0);
+    background-color: #993333;
+}
